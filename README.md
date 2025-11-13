@@ -23,7 +23,7 @@ Custom DataCollector class
 Local CSV ingestion (no API calls)
 
 **🔄 Workflow Summary**
-1. Data Collection (Local CSVs)
+**1. Data Collection (Local CSVs)**
 
 Created a DataCollector class to load:
 
@@ -33,7 +33,7 @@ CDC ILI CSV
 
 Automatically validates paths, handles formatting differences, and converts dates.
 
-2. Data Cleaning & Preprocessing
+**2. Data Cleaning & Preprocessing**
 
 Standardized date formats
 
@@ -43,7 +43,7 @@ Resampled weekly data
 
 Aligned the two time series for analysis
 
-3. Exploratory Data Analysis
+**3. Exploratory Data Analysis**
 
 Generated:
 
@@ -53,7 +53,7 @@ Scatterplots for correlation
 
 Lag comparison plots
 
-4. Statistical Analysis
+**4. Statistical Analysis**
 
 Pearson correlation between search trends and CDC data
 
@@ -83,8 +83,9 @@ project-folder/
 **Result**
 
 A reproducible, stable data analytics project that integrates
-✔ time-series data cleaning
-✔ correlation & lag analysis
-✔ statistical reasoning
-✔ Python visualization
-✔ digital epidemiology concepts
+
+1) time-series data cleaning
+2) correlation & lag analysis
+3) statistical reasoning
+4) Python visualization
+5) digital epidemiology concepts
