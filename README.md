@@ -67,6 +67,17 @@ Google Trends often peaks 1–2 weeks earlier than CDC reports
 
 Supports the idea that search behavior may signal flu outbreaks early
 
+## 📊 Visualizations
+
+### Correlation Between Google Trends & CDC ILI
+![Correlation](plots/correlation_analysis.png)
+
+### Weekly Data Alignment Check
+![Data Alignment](plots/data_alignment_check.png)
+
+### Lag Correlation Results
+![Lag Analysis](plots/lag_correlation_analysis.png)
+
 **📁 Project Structure**
 project-folder/
 │── data/
