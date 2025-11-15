@@ -1,3 +1,13 @@
+![Python](https://img.shields.io/badge/Python-3.10+-yellow?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue?logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Last Updated](https://img.shields.io/badge/Updated-Feb%202025-purple)
+![Dataset](https://img.shields.io/badge/Data-Google%20Trends%20%2B%20CDC-red)
+![Healthcare Data](https://img.shields.io/badge/Domain-Healthcare-lightgreen)
+![Reproducible](https://img.shields.io/badge/Reproducible-Yes-brightgreen)
+
+
 **📝Executive Summary**
 
 Google search interest in various flu-related symptoms showed clear alignment with CDC influenza activity trends with both rising in early winter. Correlation and lag analysis suggest Google Trends may act as a potential early indicator of flu activity. These findings highlight how digital surveillance tools can support public-health planning during flu season.
