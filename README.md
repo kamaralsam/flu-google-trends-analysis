@@ -1,3 +1,5 @@
+# Flu Trends Analysis: Google Search Activity vs. CDC ILI Data
+
 ![Python](https://img.shields.io/badge/Python-3.10+-yellow?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue?logo=pandas)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
