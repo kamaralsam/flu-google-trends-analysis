@@ -8,6 +8,18 @@
 ![Reproducible](https://img.shields.io/badge/Reproducible-Yes-brightgreen)
 
 
+| Category            | Details                                                                 |
+| ------------------- | ----------------------------------------------------------------------- |
+| **Purpose**         | Analyze whether Google Trends can act as an early flu indicator         |
+| **Datasets**        | Google Trends (search interest) + CDC Influenza-Like Illness data       |
+| **Key Skills**      | Time-series analysis, correlation, lag testing, visualization           |
+| **Tech Stack**      | Python, Pandas, NumPy, SciPy, Matplotlib                                |
+| **Main Finding**    | Google search activity rises **1–2 weeks earlier** than CDC flu reports |
+| **Impact**          | Supports early-warning surveillance for public-health planning          |
+| **Reproducibility** | Fully local CSV workflow (no API calls, no rate limits)                 |
+
+----------------------------------------------------------
+
 **📝Executive Summary**
 
 Google search interest in various flu-related symptoms showed clear alignment with CDC influenza activity trends with both rising in early winter. Correlation and lag analysis suggest Google Trends may act as a potential early indicator of flu activity. These findings highlight how digital surveillance tools can support public-health planning during flu season.
