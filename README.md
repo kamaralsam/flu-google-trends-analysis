@@ -125,6 +125,8 @@ Understanding flu trends early can help:
 
 ## 📊 Visualizations
 
+These plots illustrate the correlation, alignment, and lag patterns between Google Trends and CDC influenza activity.
+
 ### Correlation Between Google Trends & CDC ILI 
 
 ![Correlation](plots/correlation_analysis.png)
