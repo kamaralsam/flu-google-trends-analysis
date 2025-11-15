@@ -1,84 +1,111 @@
-**Google Trends vs CDC Flu Data Analysis**
+**📝Executive Summary**
 
-A Python data project exploring whether Google search behavior can predict flu outbreaks.
+Google search interest in various flu-related symptoms showed clear alignment with CDC influenza activity trends with both rising in early winter. Correlation and lag analysis suggest Google Trends may act as a potential early indicator of flu activity. These findings highlight how digital surveillance tools can support public-health planning during flu season.
 
-**📌 Project Overview**
+**🔍Key Insights**
 
-This project analyzes the relationship between Google Trends search activity for flu-related keywords and CDC Influenza-Like Illness (ILI) data. The goal is to evaluate whether Google Trends can serve as an early “digital surveillance” indicator for flu outbreaks.
+• Flu-related Google searches increased 1–2 weeks before CDC-reported flu activity rose.
 
-After encountering API rate limits, I redesigned the workflow to use local CSV ingestion, creating a stable, fully reproducible pipeline.
+• The strongest correlation appeared during peak winter months, showing clear alignment between both data sources.
+
+• Search interest spiked faster than CDC case reporting, suggesting Google Trends may help anticipate rising flu activity.
+
+• Both datasets followed similar seasonal patterns, reinforcing that digital signals can complement traditional surveillance.
+
+**🎯Why This Matters**
+
+Understanding flu trends early can help:
+
+1) Hospitals prepare for patient surges
+
+2) Public-health teams respond faster
+
+3) Communities become aware of rising flu risk
+
+4) Analysts explore how digital data can support disease monitoring
+
+**⚙️Methodology (Overview)**
+
+**Data Collection**
+
+• Imported weekly flu-related search interest from Google Trends
+
+• Loaded weekly influenza activity values from CDC
+
+**Data Cleaning & Preparation**
+
+• Standardized date formats
+
+• Aligned datasets by week
+
+• Handled missing values and ensured consistent time ranges
+
+**Analysis**
+
+• Performed visual trend comparison
+
+• Conducted correlation analysis
+
+• Conducted lag analysis to test whether search patterns lead CDC reports
+
+**Visualization**
+
+• Created time-series plots (Matplotlib)
+
+• Overlaid Google Trends and CDC data to show alignment
+
+• Highlighted peaks and seasonal patterns
+
+**Interpretation**
+
+• Evaluated whether increases in search activity provided early signals
+
+• Identified opportunities for enhanced digital surveillance
+
+**📈Next Steps / Future Work**
+
+1) Expand the dataset to cover multiple years for stronger seasonal analysis
+
+2) Compare Google Trends data with specific flu subtypes or regional trends
+
+3) Explore simple forecasting models to predict flu activity using search patterns
+
+4) Build an interactive dashboard so users can explore trends week by week
+
+5) Integrate more digital signals (Twitter, news, or mobility data) to enhance early-warning systems
+
 
 **🔧 Tools & Technologies**
 
-Python
+• Python
 
-Pandas, NumPy, SciPy
+• Pandas, NumPy, SciPy
 
-Matplotlib, Seaborn
+• Matplotlib, Seaborn
 
-Time-series alignment & correlation analysis
+• Time-series alignment & correlation analysis
 
-Custom DataCollector class
+• Custom DataCollector class
 
-Local CSV ingestion (no API calls)
+• Local CSV ingestion (no API calls)
 
-**🔄 Workflow Summary**
-**1. Data Collection (Local CSVs)**
-
-Created a DataCollector class to load:
-
-Google Trends CSV
-
-CDC ILI CSV
-
-Automatically validates paths, handles formatting differences, and converts dates.
-
-**2. Data Cleaning & Preprocessing**
-
-Standardized date formats
-
-Filled missing values / missing weeks
-
-Resampled weekly data
-
-Aligned the two time series for analysis
-
-**3. Exploratory Data Analysis**
-
-Generated:
-
-Overlaid time-series plots
-
-Scatterplots for correlation
-
-Lag comparison plots
-
-**4. Statistical Analysis**
-
-Pearson correlation between search trends and CDC data
-
-Lag analysis to test whether Google Trends spikes appear earlier than CDC flu peaks
-
-**📊 Key Findings**
-
-Strong positive correlation between Google search interest and CDC ILI rates
-
-Google Trends often peaks 1–2 weeks earlier than CDC reports
-
-Supports the idea that search behavior may signal flu outbreaks early
 
 ## 📊 Visualizations
 
-### Correlation Between Google Trends & CDC ILI
+### Correlation Between Google Trends & CDC ILI 
+
 ![Correlation](plots/correlation_analysis.png)
 
 ### Weekly Data Alignment Check
+
 ![Data Alignment](plots/data_alignment_check.png)
 
 ### Lag Correlation Results
+
 ![Lag Analysis](plots/lag_correlation_analysis.png)
 
 **📁 Project Structure**
+
 project-folder/
 │── data/
 │    ├── google_trends.csv
@@ -91,12 +118,3 @@ project-folder/
 │    └── flu_analysis.ipynb
 │── README.md
 
-**Result**
-
-A reproducible, stable data analytics project that integrates
-
-1) time-series data cleaning
-2) correlation & lag analysis
-3) statistical reasoning
-4) Python visualization
-5) digital epidemiology concepts
