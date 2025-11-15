@@ -7,6 +7,7 @@
 ![Healthcare Data](https://img.shields.io/badge/Domain-Healthcare-lightgreen)
 ![Reproducible](https://img.shields.io/badge/Reproducible-Yes-brightgreen)
 
+**🌟 Project Highlights**
 
 | Category            | Details                                                                 |
 | ------------------- | ----------------------------------------------------------------------- |
