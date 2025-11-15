@@ -2,6 +2,8 @@
 
 Google search interest in various flu-related symptoms showed clear alignment with CDC influenza activity trends with both rising in early winter. Correlation and lag analysis suggest Google Trends may act as a potential early indicator of flu activity. These findings highlight how digital surveillance tools can support public-health planning during flu season.
 
+-----------------------------------------------------------
+
 **🔍Key Insights**
 
 • Flu-related Google searches increased 1–2 weeks before CDC-reported flu activity rose.
@@ -11,6 +13,8 @@ Google search interest in various flu-related symptoms showed clear alignment wi
 • Search interest spiked faster than CDC case reporting, suggesting Google Trends may help anticipate rising flu activity.
 
 • Both datasets followed similar seasonal patterns, reinforcing that digital signals can complement traditional surveillance.
+
+-----------------------------------------------------------
 
 **🎯Why This Matters**
 
@@ -23,6 +27,8 @@ Understanding flu trends early can help:
 3) Communities become aware of rising flu risk
 
 4) Analysts explore how digital data can support disease monitoring
+
+-----------------------------------------------------------
 
 **⚙️Methodology (Overview)**
 
@@ -62,6 +68,8 @@ Understanding flu trends early can help:
 
 • Identified opportunities for enhanced digital surveillance
 
+-----------------------------------------------------------
+
 **📈Next Steps / Future Work**
 
 1) Expand the dataset to cover multiple years for stronger seasonal analysis
@@ -74,6 +82,7 @@ Understanding flu trends early can help:
 
 5) Integrate more digital signals (Twitter, news, or mobility data) to enhance early-warning systems
 
+-----------------------------------------------------------
 
 **🔧 Tools & Technologies**
 
@@ -89,6 +98,7 @@ Understanding flu trends early can help:
 
 • Local CSV ingestion (no API calls)
 
+-----------------------------------------------------------
 
 ## 📊 Visualizations
 
@@ -103,6 +113,8 @@ Understanding flu trends early can help:
 ### Lag Correlation Results
 
 ![Lag Analysis](plots/lag_correlation_analysis.png)
+
+-----------------------------------------------------------
 
 **📁 Project Structure**
 
